@@ -1,0 +1,27 @@
+git init
+git add .
+git commit -m 'primera rama en git'
+
+ver ramas
+git branch
+
+crear rama
+git branch develop
+
+revisar ramas
+git branch
+
+elegir la rama develop
+git checkout develop
+
+revisar en que rama estoy
+git branch
+la rama elegida debe estar con asterisco..
+
+
+PS D:\2025-VERANO\Desarrollo Back-End (Nivel básico)\MODULO 06\RAMAS> git branch
+* develop
+  master
+PS D:\2025-VERANO\Desarrollo Back-End (Nivel básico)\MODULO 06\RAMAS> git checkout master
+Switched to branch 'master'
+PS D:\2025-VERANO\Desarrollo Back-End (Nivel básico)\MODULO 06\RAMAS> git merge develop
